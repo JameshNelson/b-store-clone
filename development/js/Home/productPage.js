@@ -1,5 +1,5 @@
 angular.module('bStore')
-.controller('productPage', function($scope, mainService, $stateParams){
+.controller('productPage', function($scope, mainService, $stateParams, $rootScope){
   var getClassicGames = function(){
   mainService.getClassicGames().then(function(response){
    var classics = response.data;
@@ -10,6 +10,7 @@ angular.module('bStore')
      if (classics[i].gameUrl.toLowerCase() == $stateParams.game.toLowerCase()) {
        console.log("FOUND", classics[i]);
        $scope.thisGame = classics[i];
+      $rootScope.backimage = $scope.thisGame.background
        return;
      }
    }

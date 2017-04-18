@@ -16,14 +16,7 @@ angular.module("bStore")
 }
 $scope.getClassicGames();
 
-$scope.getTestGame = function(){
-  mainService.getTestingGame().then(function(response){
-    console.log(response);
-    $scope.tests = response.data
-  })
-}
 
-$scope.getTestGame();
 
 
 });

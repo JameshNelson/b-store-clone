@@ -64,6 +64,9 @@
       margin-right: 30px;
       display: flex;
       align-items: center;
+      a{
+        color: rgba(255, 255, 255, 0.7)
+      }
     }
     .account{
       height: 100%;
@@ -81,6 +84,7 @@
   padding-right: 20px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid hsla(0,0%,100%,.07);
 
     .breadCrumb{
       color: $w;

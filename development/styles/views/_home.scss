@@ -10,7 +10,7 @@
     background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/banners/en/hs_ungoro-bd1234d157.jpg");
     margin-bottom: 40px;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
   }
 
   .grid-container{
@@ -29,6 +29,7 @@
         flex-direction: row;
 
         product{
+          width: 100%;
           justify-content: space-between;
           display: flex;
           flex-wrap: wrap;

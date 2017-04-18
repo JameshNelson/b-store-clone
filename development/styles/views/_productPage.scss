@@ -1,0 +1,61 @@
+.product-page-body{
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+  .grid-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .logo{
+      height: 210px;
+
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .buy-box{
+      float: left;
+      width: 45%;
+
+      .game-title{
+        line-height: 40px;
+        font-size: 35px;
+        font-weight: 300;
+        font-style: $blizzard-font;
+        color: $w;
+
+      }
+
+      .game-price{
+        font-style: $blizzard-font;
+        font-size: 35px;
+        line-height: 40px;
+        color: $w;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .action-box{
+        min-height: 50px;
+
+        button{
+          min-width: 100px;
+          background-color: #0e86ca;
+          color: $w;
+          height: 34px;
+          font-style: $blizzard-font;
+          font-size: 15px;
+          line-height: 20px;
+          border-color: #00aeff;
+        }
+      }
+    }
+  }
+}

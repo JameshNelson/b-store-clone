@@ -37,11 +37,24 @@ app.get('/store/classic', function(req, res, next){
   })
 });
 
-app.get('/store/testing', function(req, res, next){
-  db.run("select * from classic where name like 'Warcraft III: Reign%' ", function(err, result){
+app.get('/store/hots', function(req, res, next){
+  db.run("select * from hots", function(err, result){
     res.send(result);
   })
-})
+});
+
+app.get('/store/diablo3', function(req, res, next){
+  db.run("select * from diablo_3", function(err, result){
+    res.send(result);
+  })
+});
+
+app.get('/store/overwatch', function(req, res, next){
+  db.run("select * from overwatch", function(err, result){
+    res.send(result);
+  })
+});
+
 
 //post requests
 

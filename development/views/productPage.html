@@ -1,3 +1,19 @@
-<h1> Is working</h1>
+<div class = "product-page-body">
+  <nav-Bar></nav-Bar>
+  <div class = 'grid-container'>
+    <div class = 'logo' ng-style="{backgroundImage:'url('+thisGame.logo+')' }">
 
-{{thisGame}}
+    </div>
+    <div class = 'buy-box'>
+      <div class = 'game-title'>
+        {{thisGame.name}}
+      </div>
+      <div class = 'game-price'>
+        USD {{thisGame.game_price}}
+      </div>
+      <div class = "action-box">
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
