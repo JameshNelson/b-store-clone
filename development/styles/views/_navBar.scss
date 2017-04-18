@@ -1,0 +1,113 @@
+.navBar{
+  width: auto;
+  height: 60px;
+  color: blue;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #4594c7;
+
+
+  .imageDiv{
+    width: 75px;
+    height: 60px;
+    margin-right: 20px;
+    background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/browse/card-legacy-games-d7f8ba2841.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+  }
+
+  .navItems{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.7);;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .games{
+      margin-right: 30px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .shop{
+      margin-right: 30px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .esports{
+      margin-right: 30px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .profileItems{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: 50px;
+    display:flex;
+
+    .support{
+      height: 100%;
+      margin-right: 30px;
+      display: flex;
+      align-items: center;
+    }
+    .account{
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+    }
+  }
+
+}
+
+.navSearchBar{
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+
+    .breadCrumb{
+      color: $w;
+      font-size:14px;
+      font-family: Blizzard,Arial,Helvetica,Segoe UI Symbol,Segoe MDL2 Assets,sans-serif;
+      display: flex;
+
+      .homeIcon{
+        width: 16px;
+        height: 16px;
+        background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/ui/icon-home-619c23d0ba.png");
+        background-repeat: no-repeat;
+        margin-right:10px;
+      }
+    }
+
+    .searchBar{
+      height: 25px;
+      font-size: 12px;
+      width: 330px;
+      padding-left: 5px;
+      box-shadow: inherit;
+      position: absolute;
+      right: 30px;
+      background-color: black;
+      display: flex;
+
+    }
+
+}

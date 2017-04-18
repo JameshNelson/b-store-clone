@@ -1,0 +1,34 @@
+.productBox{
+  z-index: 11;
+  width: 228.66px;
+  height: 238.61px;
+  box-sizing: border-box;
+  border: solid color black;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.7), inset 0 0 0 2px hsla(0,0%,100%,.1);
+
+  img{
+    max-width: 100%;
+  }
+
+  .product-info{
+    width: auto;
+    padding: 15px;
+    background-color: $blizzard-dark-blue;
+
+    .product-name{
+      font-family: $blizzard-font;
+      font-weight: 400;
+      height: 40px;
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 20px;
+      color: $w;
+    }
+    .product-price{
+      padding-top: 5px;
+      color: $blizzard-blue;
+      font-family: $blizzard-font;
+    }
+  }
+}

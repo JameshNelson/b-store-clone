@@ -1,0 +1,13 @@
+<div class = "productBox" ng-repeat = "classic in classics" ui-sref = "productPage({game: classic.gameUrl})">
+
+  <img src="{{classic.game_image}}"></img>
+  <div class = "product-info">
+    <div class = 'product-name'>
+    <h3>  {{classic.name}}</h3>
+    </div>
+    <div class = 'product-price'>
+      USD {{classic.game_price}}
+    </div>
+  </div>
+
+</div>

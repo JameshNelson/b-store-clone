@@ -1,0 +1,95 @@
+.browse-column{
+  width: 260px;
+  vertical-align: top;
+  font-family: $blizzard-font;
+  font-size: 15;
+  line-height: 20px;
+
+
+  .home-sidebar{
+    width: 91%;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.07);
+    background: #19547c;
+
+    .game-types{
+      margin-bottom: 20px;
+
+        li{
+          height: 50px;
+          margin-bottom: 0;
+          border-bottom: 1px solid hsla(0,0%,100%,.07);
+          color: $w;
+          font-family: $blizzard-font;
+          display: flex;
+          align-items: center;
+
+          .wow{
+            background-image: url("https://blznav.akamaized.net/img/games/logo-mobile-wow-e09169bb480f819c.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .ow{
+            background-image: url("https://blznav.akamaized.net/img/games/logo-mobile-ow-e447cd757dd7e52b.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .D{
+            background-image: url("https://blznav.akamaized.net/img/games/logo-d3-ab08e4045fed09ee.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .hs{
+            background-image: url("https://blznav.akamaized.net/img/games/logo-hs-beb1a37bc84beefb.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .hots{
+            background-image: url("https://blznav.akamaized.net/img/games/logo-heroes-78cae505b7a524fb.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .sc{
+            background-image: url("https://blznav.akamaized.net/img/games/logo-sc2-6e33583ba0547b6a.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .cg{
+            background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/nav-client/blizzard-aca4a4c02c.png");
+            width:40px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+          .as{
+            background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/browse/card-blizzard-dedb330075.png");
+            width:40px;
+            height: 40px;
+            margin-right: 5px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      }
+    }
+  }
+}

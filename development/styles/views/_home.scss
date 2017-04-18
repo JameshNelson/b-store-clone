@@ -1,0 +1,39 @@
+.home-page{
+  width: auto;
+  background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/backgrounds/bnet-background-1024-978955a5d8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .home-banner{
+    width: auto;
+    height: 300px;
+    background-image: url("https://bnetus-a.akamaihd.net/shop/static/images/banners/en/hs_ungoro-bd1234d157.jpg");
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  .grid-container{
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .browse-container{
+      width: 100%;
+      display: flex;
+
+      .featured-products{
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        product{
+          justify-content: space-between;
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}
