@@ -16,5 +16,26 @@ angular.module('bStore')
    }
   })
 }
+
   getClassicGames();
+
+
+$scope.stripe = function(){
+     var handler = StripeCheckout.configure({
+      key: 'pk_test_zpRONBjxlVGJMjgVWn0iIBIm',
+      image: '/img/documentation/checkout/marketplace.png',
+      locale: 'auto',
+      token: function(token) {
+        // Use the token to create the charge with a server-side script.
+        // You can access the token ID with `token.id`
+      }
+    });
+
+    handler.open({
+    name: "Blizzard-Clone",
+    description: 'Game',
+    amount: 999
+  });
+}
+
 });

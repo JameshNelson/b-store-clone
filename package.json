@@ -22,6 +22,7 @@
     "gulp-print": "^2.0.1",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.5.1",
-    "massive": "^2.6.0"
+    "massive": "^2.6.0",
+    "stripe": "^4.18.0"
   }
 }
