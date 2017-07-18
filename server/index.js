@@ -18,7 +18,7 @@ const mainCtrl = require('./controller/mainCtrl');
 
 // creating setup for connection to a database
 var massiveInst = massive.connectSync({
-    connectionString: `postgress://${config.NAME}:${config.PASSWORD}@${config.ENDPOINT}:5432/${config.DBPORT}`
+    connectionString: config.MASSIVE_URI
 });
 app.set('db', massiveInst);
 var db = app.get('db');

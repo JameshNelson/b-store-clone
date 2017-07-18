@@ -1,5 +1,5 @@
 module.exports = {
-  MASSIVE_URI: "postgres://postgres:groningen190@localhost/b_store",
+  MASSIVE_URI: "	postgres://ugmkbokq:c8ij80F-u-Ly_nAlf_Oso04NpAO0FQF6@babar.elephantsql.com:5432/ugmkbokq",
   ENDPOINT:"jameshnelson.c6kaihe8jige.us-west-2.rds.amazonaws.com",
   SESSION_SECRET: 'meatball',
   DBPORT:"blizzardClone",
